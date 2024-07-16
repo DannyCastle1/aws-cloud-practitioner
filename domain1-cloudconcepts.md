@@ -75,7 +75,7 @@ Data sovereignty is important in AWS Regions because you have control of where y
 
 #### How do AWS Regions enhance disaster recovery capabilities?
 
-AWS Regions enhance disaster recovery capabilities by having a continuous backup of data for a Region. Since each Region has mupltiple Availability Zones, they're isolated from each other.
+AWS Regions enhance disaster recovery capabilities by having a continuous backup of data for a Region. Since each Region has multiple Availability Zones, they're isolated from each other.
 
 #### What are the four main factors to consider when choosing an AWS Region?
 
@@ -113,3 +113,50 @@ Edge Locations in AWS are sites that store cached copies of your data closer to 
 #### What is AWS Outposts?
 
 AWS Outposts is similar to on-premise cloud deployment. It allows you to extend your cloud infrastructure to any region you choose.
+
+#### How do Availability Zones within AWS Regions contribute to disaster recovery and high availability?
+
+AZ's contribute to disaster recovery and high availability because your work is better protected from a single point of failure. Each AZ has their own backup, as well as being separate from each other.
+
+#### How do AWS Edge locations and Amazon CloudFront improve content delivery?
+
+AWS Edge Locations and CloudFront improve content delivery by storing cached copies of your content closer to your customers.
+
+#### What is an API in the context of AWS?
+
+An API in the context of AWS are mechanism that enables two software components to communicate with each other using a set of definitions and protocols.
+
+#### What is the primary method of interacting with AWS services?
+
+The primary method of interacting with AWS services is the AWS Management Console.
+
+#### What are the main ways to interact with AWS services?
+
+The main ways to interact with AWS services are the AWS Management Console, the Command Line Interface, and Sofware Development Kits.
+
+#### Why is automation important in cloud deployment?
+
+Automation is important in cloud development because it helps ensure optimal performace and its resources. It also helps reduce IT staff from managing repetitive tasks.
+
+#### What is the primary advantage of using AWS Elastic Beanstalk over manual methods like the AWS Management Console?
+
+The primary advantage of using AWS Elastic Beanstalk over manual methods is that it's the fastest way to get web applications up and running on AWS. Just upload your code, and Beanstalk handles everything from resource provisioning, load balancing, auto scaling, and monitoring.
+
+#### What is AWS Elastic Beanstalk used for?
+AWS Elastic Beanstalk is used for quick deployment and managing applications without having to control the infrastructure running the applications.
+
+#### How does AWS CloudFormation help in managing AWS resources?
+
+AWS CloudFormation helps in managing AWS resources by managing and set up cloud resources so you spend less time managing and just focus on your applications.
+
+#### What are the main components of AWS Global Infrastructure?
+
+The main components of AWS Global Infrastructure are Regions, Availability Zones, and Edge Locations.
+
+#### Which AWS services automatically run across multiple Availability Zones?
+
+The AWS services that automatically run across multiple AZ's are EC2, Beanstalk, and CloudFormation.
+
+#### What is the recommended best practice for deploying infrastructure in AWS?
+
+The recommended best practice for deploying infrastructure in AWS are CloudFormation.
