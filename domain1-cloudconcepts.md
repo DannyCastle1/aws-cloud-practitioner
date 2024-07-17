@@ -160,3 +160,36 @@ The AWS services that automatically run across multiple AZ's are EC2, Beanstalk,
 #### What is the recommended best practice for deploying infrastructure in AWS?
 
 The recommended best practice for deploying infrastructure in AWS are CloudFormation.
+
+#### What is Amazon EC2?
+
+Amazon EC2 provides resizable compute capacity in the cloud.
+
+#### What is Amazon EC2 and its primary benefits?
+
+Amazon EC2 is designed to make web-scale computing easier for developers. Its primary benefits are that you trade fixed cost for variable cost. No need to invest in upfront hardware.
+
+#### What is a Security Group in EC2?
+
+A Security Group in EC2 acts as a virtual firewall that controls network access to your instances.
+
+#### What are the four main purchasing options for EC2 instances, and what are their key characteristics?
+
+The four main purchasing options for EC2 instances are:
+- On-Demand: pay for compute capacity as needed.
+- Reserved: Allows you to reserve as needed.
+- Savings Plan: flexible pricing model in exchange for a one or three year commitment.
+- Spot: Allows you to take advantage of unused EC2 capacity available in the cloud, but it can be interrupted by AWS at anytime (and with a warning).
+
+#### How does EC2 pricing work?
+
+The pricing differ depending on which instance you purchase. The four are:
+- On-Demand: you pay per hour, and depends on which EC2 you decide.
+- Reserved: up to 72% discount (compared to On-Demand).
+- Savings Plan: flexible pricing in exchange for a one or three year commitment.
+- Spot: request spare EC2 (for up to 90% discount) that can be interrupted by AWS at any time with a warning.
+
+#### What is an Amazon Machine Image (AMI)?
+
+An AMI is an image that provides the information required to launch an instance.
+
