@@ -193,3 +193,14 @@ The pricing differ depending on which instance you purchase. The four are:
 
 An AMI is an image that provides the information required to launch an instance.
 
+#### How does EC2 integrate with other AWS services?
+
+EC2 integrates with other AWS services throught the AWS Management Console.
+
+#### What are the different computing models available in AWS?
+
+The different computing models available in AWS are General Purpose, Compute Optimized, Accelerated Computing, Memory Optimized, and Storage Optimized.
+
+#### What is an instance and its use cases?
+
+An instance is a virtual machine in the AWS cloud.
