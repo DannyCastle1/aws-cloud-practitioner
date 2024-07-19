@@ -203,4 +203,76 @@ The different computing models available in AWS are General Purpose, Compute Opt
 
 #### What is an instance and its use cases?
 
-An instance is a virtual machine in the AWS cloud.
+An instance is a virtual machine in the AWS cloud. Its use cases depends on how much computing power is required but its a compute platform for running your applications.
+
+#### What are containers and their advantages?
+
+Containers allow developers to create and deploy applications faster and securely. Their advantages are speed, consistency, efficiency, and portability.
+
+#### What is serverless computing and its use cases?
+
+Serverless computing is an development model where you build and deploy applications on third-party managed infrastructure. Its use cases are for stateless application development, batch processing, data analytics, and business process automation.
+
+#### When would you consider a hybrid deployment model?
+
+You would consider a hybrid deployment model when you're already invested in infrastructure and want to take advantage of cloud services.
+
+#### What are some of the popular AWS computing services?
+
+Some popular AWS computing services are General Purpose, Accelerated Computing, Memory Optimized, Storage Optimized, and Compute Optimized.
+
+#### What is AWS Lambda?
+
+AWS Lambda is aservice where you run your code without managing any servers. You organized your code into Lambda functions, and they're triggered when necessary.
+
+#### What is Amazon ECS?
+
+Amazon ECS is a container service that lets your deploy, and manage containerized applications.
+
+#### How does AWS Fargate differ from Amazon EC2?
+
+Fargate differs from EC2 because EC2 allows you granular control over infrastructure, and Fargate offers serverless simplicity and optimization.
+
+#### What are the benefits of using AWS Elastic Beanstalk?
+
+The benefits of using AWS Elastic Beanstalk is that it makes it easier for developers to deploy applications quicker. You just upload your application, and EBS handles everything from deployment, to load balancing, auto-scaling, and monitoring.
+
+#### How does EC2 demonstrate elasticity?
+
+EC2 demonstrates elasticity by allow you to scale up or down the number of instances depending on demand.
+
+#### What level of control do users have over EC2 instances?
+
+Developers have complete control over how they want to deploy their instances.
+
+### What security features does Amazon EC2 provide?
+
+the security features EC2 provides are network isolation, isolation on physical hosts, and controlling network traffic.
+
+#### What are the main architectural components of Amazon EC2?
+
+The main components of EC2 are AMI, instance type, key pair, network, security group, and storage.
+
+#### What factors should you consider when choosing a region for your EC2 instance?
+
+The factors you should consider are compliance, latency, cost, services, and features.
+
+#### What is the purpose of a VPC in Amazon EC2?
+
+The purpose of a VPC in EC2 is isolating a private network for your instance.
+
+#### What are subnets and their role in EC2?
+
+Subnets are a range of IP addresses in your VPC. They allow you to connect to the internet as well as your network securely.
+
+#### How do security groups protect your EC2 instances?
+
+Security Groups protect your EC2 instance by controlling the network traffic that's allow to reach and leave your workload.
+
+#### What are the steps to launch an EC2 instance?
+
+The steps to launch an EC2 instance are sign in to AWS Management Console, choose a name for your instance, choose an AMI, an instance type, a key pair, Security Group, storage, review your choices, and then launch your instance.
+
+#### What is the importance of tagging in EC2?
+
+The importance of tagging in EC2 is to help you manage, identify, organize, search, and filter resources.
