@@ -276,3 +276,20 @@ The steps to launch an EC2 instance are sign in to AWS Management Console, choos
 #### What is the importance of tagging in EC2?
 
 The importance of tagging in EC2 is to help you manage, identify, organize, search, and filter resources.
+
+#### Can you automate EC2 scaling?
+
+Yes you can automate EC2 scaling with EC2 Auto Scaling.
+
+#### What security features does EC2 offer?
+
+The security features offered by EC2 are:
+- Identity and Access Management.
+- Detection and response.
+- Network and application protection.
+- Data protection.
+- Compliance.
+
+#### What are the benefits of using AMIs?
+
+The benefits of using AMI's allows you to pre-install any required packages, imporve boot time, implement security controls, and launch quickly as needed.
