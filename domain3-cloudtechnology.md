@@ -103,4 +103,100 @@ The types of AWS VPN connections are Site-to-Site VPN and Client VPN.
 
 AWS Transit Gateway helps you design and implement networks at scale by acting as a cloud router. As your network grows, managing incremental connections can slow you down. AWS Transit Gateway connects VPC's and on-premise networks through a central hub.
 
+## Storage: 
+
+#### What is object storage typically used for in cloud computing?
+
+Object storage is best used for large amounts of unstructured data.
+
+#### How does Amazon S3 handle durability and availability for object storage?
+
+S# stores data redundantly across a minimum of 3 availability zones by default, providing built-in resilience against widespread disaster.
+
+#### What are some typical use cases for Amazon S3?
+
+Some typical use cases for S3 are backup/restore, disaster recovery, archive, data lakes for analytics, and hybrid cloud storage.
+
+#### What is the main difference between Amazon S3 Standard and Amazon S3 Standard-IA storage classes?
+
+The main different between S3 and S3-IA is that S3-IA is for data accessed less frequently, but requires rapid access when needed. Price is also a difference. It's lower per GB storage and retrieval than S3.
+
+#### What is the Amazon S3 Glacier storage class used for?
+
+S3 Glacier storage is used for backup and archive data that's rarely accessed and low cost.
+
+#### How does Amazon S3 Intelligent-Tiering work, and what are its benefits?
+
+S3 IT works by automatically storing objects in three access tiers. Its benefits are its cost-effective, and there's no retrieval charges.
+
+#### Explain the use case for Amazon S3 One Zone-IA.
+
+S3 One-Zone IA is for data that's accessed less frequently, but requires rapid access when needed.
+
+#### What is Amazon Elastic Block Store (Amazon EBS) and what are its primary use cases?
+
+Amazon EBS is block storage for cloud workloads. Its primary use cases are for providing persistent storage for EC2 instances.
+
+#### What are the main types of EBS volumes and their characteristics?
+
+The main types pf EBS volumes are SSD, HDD, and Magnetic. SSD are for transactional workloads involving frequent read/write with small I/O size. HDD are for large streaming workloads where the dominant performance attribute is throughput. Magnetic are for workloads with small datasets where data is accessed infrequently and performance is not of primary importance.
+
+#### What is the difference between Amazon EBS and instance store?
+
+The difference between EBS and instance store is that your data in EBS will retain on the volume until you delete it, instance store will lose your data as soon as you terminate your instance.
+
+#### What are some common use cases for instance store volumes?
+
+Common use cases for instance store volumes are temporary caching, stateful applications, and high-performance workloads.
+
+#### Can you attach an EBS volume to multiple EC2 instances at the same time?
+
+Yes with EBS Muti-Attach for shared storage.
+
+#### What is the maximum size of a single Amazon EBS volume?
+
+The maximum size is 64 TiB.
+
+#### How do you ensure the durability of data stored in Amazon EBS?
+
+By replicating the EBS volume data across multiple servers in a n availability zone.
+
+#### What is Amazon EBS Snapshots and how are they used?
+
+They're a point-in-time copy of your data, and they're used to enable disaster recovery, migrating data across regions or accounts, and improve backup compliance.
+
+#### Can you change the volume type of an existing Amazon EBS volume?
+
+You can with EBS Elastic Volumes.
+
+#### What is Amazon Elastic File System (Amazon EFS) and what are its primary use cases?
+
+Amazon EFS provides shared file storage for use with instances in the cloud and on-premise servers. Its primary cases are for applications that require shared file access, storage for containerized and serverless applications.
+
+#### What are the key features of Amazon EFS?
+
+Scalability, elasticity, performace, durability/availability, backup/restore, and encryption.
+
+#### What is Amazon FSx and what file systems does it support?
+
+FSx provides fully managed Windows file servers, backed by fully native windows file system. It supports a broad set of Windows workloads and Server Message Block.
+
+#### What are common use cases for Amazon FSx for Windows File Server?
+Migrate Windows file servers to AWS, accelerate hybrid workloads, reduce SQL Server deployment costs, simplify virtual desktops, and streaming.
+
+#### Can Amazon EFS be accessed from on-premises environments?
+
+Yes it can.
+
+#### What is the difference between Amazon EFS and Amazon FSx for Windows File Server?
+
+EFS is used for NFS and Linux-based workloads. FSx is for Windows-based workloads and uses SMB protocol.
+
+#### What are the performance modes available in Amazon EFS?
+
+Bursting, Elastic, and Provisioned.
+
+
+
+
 
