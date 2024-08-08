@@ -196,7 +196,56 @@ EFS is used for NFS and Linux-based workloads. FSx is for Windows-based workload
 
 Bursting, Elastic, and Provisioned.
 
+## Databases:
 
+#### What is Amazon RDS, and what are its key features?
 
+RDS is an easy-to-manage relational database service. RDS automates the undifferentiated database management tasks, enables customers to create new databases in minutes, and offers flexibility across eight engines and two deployment options.
 
+#### What are the benefits of Amazon RDS?
 
+Easy to manage, choice of engine, high availability, and operational expertise.
+
+#### What is Amazon DynamoDB, and what are its use cases?
+
+DynamoDB is a server;ess, NoSQL database that enables you to develop modern applications at any scale. Use cases can be financial service applications, gaming and streaming applications.
+
+#### What is Amazon Aurora, and how does it differ from other RDS engines?
+
+Aurora is a fully managed relational database compatible with MySQL and PostgreSQL, RDS has both but also MariaDB, SQL Server, and Oracle.
+
+#### What is Amazon Redshift, and what is it used for?
+
+Redshift is a data warehousing solution from AWS. It's used for large-scale data migrations.
+
+#### What is AWS Database Migration Service (DMS), and what are its benefits?
+
+DMS is a managed migration and replication service that helps you move your database to AWS. Its benefits are minimal downtime, supports widely used databases, fast setup, low cost, and reliability.
+
+#### What is the Schema Conversion Tool (SCT) used for in AWS database migrations?
+
+SCT provides project-based user interface to automatically convert the database schema of your source database into a format compatible with your RDS instance.
+
+#### What are the common steps involved in a database migration using AWS DMS?
+
+Create an AWS replication instance, configure source RDS for SQL server database, create AWS DMS source endpoint, configure target S3 bucket, configure DMS target endpoint, create and then run the AWS DMS task.
+
+#### What are the benefits of using AWS managed databases over EC2-hosted databases?
+
+RDS is easier to set up, manage, and maintain than EC2-hosted databases.
+
+#### What are some of the AWS managed database services available?
+
+Aurora, RDS, Redshift, DynamoDB, Elasticache, MemoryDB, DocumentDB, Keyspaces, Neptune, Timestream, and Ledger database Service.
+
+#### How does Amazon Aurora differ from Amazon RDS?
+
+Aurora is a propriwtarym fully-managed relational database engine for MySQL, and PostgreSQL. RDS is a hosted database service that supports more than the two formerly mentioned.
+
+#### Why might you choose Amazon DynamoDB for your application?
+
+To build modern, serverless applications that can start small and scale globally.
+
+#### What are the benefits of using Amazon Redshift for data warehousing?
+
+Redshift enables fine grained access controls such as role-based acceess controls, row and column level security, and a an easy authentication experience with single sign-on for your organization.
